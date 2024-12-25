@@ -10,5 +10,8 @@ public class Calculature {
     public static int soustraction(int a ,int b ){
         return a-b;
     }
+    public static int multiple(int a, int b){
+        return a*b ;
+    }
 
 }

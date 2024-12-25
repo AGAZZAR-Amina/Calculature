@@ -21,7 +21,15 @@ public class CalculatureTest {
     public void Testsoustraction2(){
         assertEquals(-12,Calculature.soustraction(-9,3));
     }
+    @Test
+    public void Testmultiple1(){
+        assertEquals(4,Calculature.multiple(2,2));
+    }
 
+    @Test
+    public void Testmultiple2(){
+        assertEquals(-4,Calculature.multiple(-2,2));
+    }
 
 
 
