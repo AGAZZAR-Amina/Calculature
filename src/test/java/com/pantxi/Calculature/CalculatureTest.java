@@ -8,7 +8,21 @@ public class CalculatureTest {
     public void Testaddition1(){
         assertEquals(2 ,Calculature.addition(1,1)) ;
     }
-    
+
+    @Test
+    public void Testadditon2(){
+        assertEquals(-3 ,Calculature.addition(-6,3));
+    }
+    @Test
+    public void Testsoustraction1(){
+        assertEquals(6,Calculature.soustraction(9,3));
+    }
+    @Test
+    public void Testsoustraction2(){
+        assertEquals(-12,Calculature.soustraction(-9,3));
+    }
+
+
 
 
 }
