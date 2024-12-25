@@ -31,6 +31,12 @@ public class CalculatureTest {
         assertEquals(4,Calculature.divide(9,2));
     }
 
+    @Test
+    public void Testdivide1(){
+
+        assertThrows(ArithmeticException.class, () -> Calculature.divide(9, 0));
+    }
+
 
 
 }
