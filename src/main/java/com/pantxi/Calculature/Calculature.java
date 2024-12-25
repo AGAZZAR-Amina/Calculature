@@ -13,5 +13,8 @@ public class Calculature {
     public static int multiple(int a, int b){
         return a*b ;
     }
+    public static float divide(int a ,int b){
+        return a/b ;
+    }
 
 }

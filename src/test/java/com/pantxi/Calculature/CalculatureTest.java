@@ -27,8 +27,8 @@ public class CalculatureTest {
     }
 
     @Test
-    public void Testmultiple2(){
-        assertEquals(-4,Calculature.multiple(-2,2));
+    public void Testdivide(){
+        assertEquals(4,Calculature.divide(9,2));
     }
 
 
